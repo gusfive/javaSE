@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--  注释：以上抬头声明必须存在且放在第一行 -->
+<!-- 根标签只能有一个 -->
+<users>
+    <user id="1" DESC="第一个用户">
+        <name>gus</name>
+        <sex>male</sex>
+        <地址>null</地址>
+        <password>000000</password>
+        <!-- XML中书写”<“、"&"等，可能会出现冲突导致报错，此时可以用如下特殊字符替代 -->
+        <char>3 &lt; 2</char>
+        <data1>
+            <![CDATA[
+                3<2
+            ]]>
+        </data1>
+    </user>
+    <people>一些人</people>
+    <user id="2">
+        <name>wqr</name>
+        <sex>male</sex>
+        <地址>common</地址>
+        <password>123456</password>
+    </user>>
+</users>
