@@ -13,9 +13,9 @@ public class TestStudent {
         Class c2 = Class.forName("W_JavaAdvance.ReflectionDemo.Student");
         System.out.println(c1 == c2);
 
-//        Student s = new Student();
-//        Class c3 = s.getClass();
-//        System.out.println(c1 == c2);
+        Student s11 = new Student();
+        Class c3 = s11.getClass();
+        System.out.println(c1 == c3);
 
         Constructor[] constructors = c1.getConstructors();//获得类的全部构造器(public修饰)
         for (Constructor constructor : constructors) {

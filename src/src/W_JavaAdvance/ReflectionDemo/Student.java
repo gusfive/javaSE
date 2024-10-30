@@ -23,7 +23,7 @@ public class Student {
     }
 
     private String eat(String name){
-        return "爱吃" + name;
+        return this.name + "爱吃" + name;
     }
 
     @Override

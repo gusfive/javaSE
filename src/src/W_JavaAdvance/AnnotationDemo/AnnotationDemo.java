@@ -24,7 +24,7 @@ public class AnnotationDemo {
         //      4.PARAMETER，方法参数
         //      5.CONSTRUCTOR，构造器
         //      6.LOCAL_VARIABLE，局部变量
-        //  @Retension
+        //  @Retention
         //      作用：声明注解的保留周期
         //      @Retention(RetentionPoilcy.RUNTIME)
         //      1.SOURCR    只作用在源码阶段，字节码文件中不存在。
